@@ -1,10 +1,12 @@
 import { combineReducers } from 'redux'
 import reduce, {dataState} from './reduce'
+import { loadData } from "./mydata/reducer";
 
-export interface RootState {
-    dataState:String
-}
 
-export default combineReducers({
-    reduce
+const rootReducer = combineReducers({
+    loadData: loadData
 })
+
+export default rootReducer;
+
+export type RootState = ReturnType<typeof rootReducer>
