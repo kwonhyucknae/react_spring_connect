@@ -15,6 +15,7 @@
     "@types/react-router-dom": "^5.1.5",
     "@types/redux": "^3.6.0",
     "@types/redux-thunk": "^2.1.0",
+    "antd": "^4.4.0",
     "axios": "^0.19.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -33,7 +34,6 @@
     "eject": "react-scripts eject"
   },
   "proxy": "http://localhost:8080",
-
   "eslintConfig": {
     "extends": "react-app"
   },

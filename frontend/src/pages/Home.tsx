@@ -1,15 +1,11 @@
 import React from 'react';
 import {Link} from "react-router-dom";
+import LayoutComponent from '../components/LayoutComponent'
 
 const Home = () => {
     return (
         <div>
-            <h2>
-                홈
-            </h2>
-            <ul>
-                <li><Link to="/">Home</Link></li>
-            </ul>
+            <LayoutComponent></LayoutComponent>
         </div>
     );
 };
